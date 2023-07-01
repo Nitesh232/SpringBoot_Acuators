@@ -1,0 +1,27 @@
+testapp:
+  messages:
+    greet: Good Morning.
+    welcome: Welcome to Nitesh Software Solutions.
+    wish: All the best for your future.
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        
+  endpoint:
+    health:
+      show-details: always
+      
+info:
+  app:
+    name: SpringBoot Application with actuators
+    description: This is application to manage and monitor endpoints.
+    version: 1.0.0
+
+    
+spring:
+  application:
+    name: SpringBoot Application with actuators
+ 
